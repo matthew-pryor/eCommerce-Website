@@ -92,3 +92,40 @@ footer h1 p {
 .left {
     margin-left: 5%;
 }
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.about-title{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.about-center{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 18rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    text-align: left;
+}
+.right-image{
+    margin-right: 10rem;
+    width:600px;
+    height:800px;
+    margin-top: 6.2rem;
+}
+.paragraph1{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+#about_section{
+    border-bottom-style: solid;
+}
